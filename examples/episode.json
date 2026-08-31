@@ -1,0 +1,18 @@
+{
+  "episode_id": "demo-001",
+  "idea": {
+    "title": "Bobo discovers the button",
+    "premise": "A tiny button triggers a chain reaction Bobo cannot stop.",
+    "hook": "Bobo should NEVER have touched this.",
+    "structure": "setup_escalation_twist"
+  },
+  "scenes": [
+    {"scene_id":"s01","duration_s":4,"background":"home","character":"bobo","action":"walk","emotion":"neutral","dialogue":"Something feels wrong.","camera":"wide","sfx":[]},
+    {"scene_id":"s02","duration_s":5,"background":"street","character":"bobo","action":"notice","emotion":"curious","dialogue":"What is that?","camera":"push_in","sfx":[]},
+    {"scene_id":"s03","duration_s":7,"background":"street","character":"bobo","action":"touch","emotion":"surprised","dialogue":"Oh no.","camera":"close","sfx":["click"]},
+    {"scene_id":"s04","duration_s":8,"background":"chaos","character":"bobo","action":"run","emotion":"terrified","dialogue":"RUN!","camera":"shake","sfx":["impact"]},
+    {"scene_id":"s05","duration_s":8,"background":"chaos","character":"bobo","action":"fall","emotion":"shocked","dialogue":"Wait...","camera":"zoom_out","sfx":[]},
+    {"scene_id":"s06","duration_s":7,"background":"mystery","character":"bobo","action":"look_back","emotion":"afraid","dialogue":"You opened it too.","camera":"close","sfx":[]},
+    {"scene_id":"s07","duration_s":6,"background":"black","character":"bobo","action":"freeze","emotion":"confused","dialogue":"","camera":"static","sfx":[]}
+  ]
+}
