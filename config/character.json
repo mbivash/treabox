@@ -1,0 +1,17 @@
+{
+  "universe": "Bobo World",
+  "character": {
+    "id": "bobo",
+    "description": "A minimalist black stick figure with a round head and expressive eyes.",
+    "traits": ["curious", "overconfident", "unlucky", "persistent"],
+    "visual_rules": {
+      "body": "thin black stroke",
+      "head": "simple circle",
+      "palette": "minimal",
+      "background": "simple flat scenes",
+      "consistency": "deterministic primitives, not per-scene image generation"
+    },
+    "actions": ["idle", "walk", "run", "jump", "fall", "talk", "laugh", "cry", "surprised", "angry", "sleep", "dance", "fight", "look_left", "look_right"]
+  },
+  "supporting_characters": ["robot", "cat", "boss", "alien", "police", "grandma", "ai"]
+}
