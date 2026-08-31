@@ -1,0 +1,9 @@
+{
+  "templates": [
+    {"id": "setup_escalation_twist", "beats": ["hook", "setup", "escalation", "escalation", "twist", "payoff"]},
+    {"id": "problem_escalation_payoff", "beats": ["hook", "problem", "attempt", "worse_problem", "payoff"]},
+    {"id": "challenge_failure_twist", "beats": ["hook", "goal", "attempt", "failure", "second_attempt", "twist", "payoff"]},
+    {"id": "mystery_reveal", "beats": ["hook", "clue", "clue", "false_answer", "reveal", "tag"]},
+    {"id": "what_if", "beats": ["premise", "rule", "consequence", "escalation", "twist", "payoff"]}
+  ]
+}
